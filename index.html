@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+        <link href="css/mobile.css" rel="stylesheet" media="all and (max-width: 950px)">
+        <link href="css/desktop.css" rel="stylesheet" media="all and (min-width: 950px)">
+        <title>tocamoverse | Inicio</title>
+        <script defer src="js/menu.js"></script>
+    </head>
+    <body>
+    <!-- Header-->
+        <header class="header">
+            <div class="container">
+                <a id="logo-desktop" class="header__logo" href="index.html">
+                    <img class="header__image" src="img/logo-darkblue.png" alt="logo">
+                </a>
+                <!-- Button con icono para abrir el menú, ANTES DEL NAV -->
+                <button id="open" class="header__open button--icon">
+                    <img src="img/icons/menu_icon_open.svg" alt="Abrir menu">
+                </button>
+                <!-- Nav-->
+                <nav id="nav" class="nav">
+                    <!-- Imagen de logo para mostrar en el menú abierto -->
+                    <div class="nav__container-logo">
+                        <a class="nav__logo" href="index.html">
+                            <img class="header__image" src="img/logo-white.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- Contener con fondo azul -->
+                    <div class="nav__container-background"></div>
+                    <!-- Button con icono para cerrar el menú, DENTRO DEL NAV-->
+                    <div class="nav__container-button">
+                        <button id="close" class="header__close button--icon">
+                            <img src="img/icons/menu_icon_close.svg" alt="Cerrar menu">
+                        </button>
+                    </div>
+                    <div class="nav__container-links">
+                        <ul class="nav__ul">
+                            <li><a href="index.html" class="link nav__link color--darkblue upper">Inicio</a></li>
+                            <li><a href="sobremi.html" class="link nav__link color--darkblue upper">Sobre mi</a></li>
+                            <li><a href="servicios.html" class="link nav__link color--darkblue upper">Servicios</a></li>
+                            <li><a href="tocamoverse.html" class="link nav__link color--darkblue upper">Tocamoverse</a></li>
+                            <li>
+                                <button class="header__contact button">
+                                    <a href="contacto.html" class="link color--white upper">Contacto</a>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="header__login button--icon">
+                                    <img src="img/icons/menu_icon_login.svg" alt="Login">
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    <!-- Fin del Header-->
+    <!-- Main -->
+    <main>
+        <!-- Section de landing con texto y carrusel de imagenes -->
+        <section class="landing-home">
+            <div class="container">
+                <div class="landing-home__container-background"></div>
+                <div class="landing-home__container-text">
+                    <h1 class="landing-home__title title color--white">Descubre</h1>
+                    <h1 class="landing-home__title title color--white">Explora</h1>
+                    <p class="landing-home__text text color--white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div class="landing-home__container-subtitle">
+                    <h2 class="landing-home__subtitle title-special color--darkblue">¡Muévete!</h2>
+                </div>
+                <div class="landing-home__container-carrousel">
+                    <source srcset="img/home-image-desktop.jpg" media="(min-width: 950px)">
+                    <source srcset="img/home-image-mobile.jpg" media="(max-width: 950px)">
+                    <img class="landing-home__image" src="img/home-image-desktop.jpg" alt="vistas de valencia">
+                </div>
+            </div>
+        </section>
+        <!-- Section de presentación, con enlace a página de Sobre Mi -->
+        <section class="about-me">
+            <div class="container">
+                <div class="about-me__container-text">
+                    <span><h2 class="about-me__title align">¡Hola!</h2></span>
+                    <p class="about-me__text text align">Soy Laura González Quicios, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ea commodo consequat.</p>
+                    <h3 class="about-me__subtitle title color--pink upper">GUÍA OFICIAL DE LA COMUNIDAD VALENCIANA. </h3>
+                </div>
+                <div class="about-me__container-button">
+                    <button class="about-me__button button">
+                        <a href="sobremi.html" class="link color--white upper">Saber más</a>
+                    </button>
+                </div>
+                <div class="about-me__container-images">
+                    <div class="image-polaroid">
+                        <img src="img/home-image-aboutme1.jpg" alt="">
+                    </div>
+                    <div class="image-polaroid--small">
+                        <img src="img/home-image-aboutme2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section de articulos destacados con enlace al blog -->
+        <section class="blog">
+            <div class="container">
+                <h2 class="blog__title title-special color--white">Tocamoverse a...</h2>
+                <div class="blog__container-images">
+                    <div class="image-square">
+                        <img src="img/home-blog-image1.jpg" alt="">
+                    </div>
+                    <div class="image-square">
+                        <img src="img/home-blog-image2.jpg" alt="">
+                    </div>
+                    <div class="image-square">
+                        <img src="img/home-blog-image3.jpg" alt="">
+                    </div>
+                </div>
+                <button class="blog__button button">
+                    <a href="tocamoverse.html" class="link color--white upper">Ir al blog</a>
+                </button>
+            </div>
+        </section>
+        <!-- Section de follow me en instagram -->
+        <section class="follow-me">
+            <div class="container">
+                <h3 class="follow-me__title title-special color--darkblue">¡Sígueme!</h3>
+                <div class="follow-me__container-images">
+                    <div class="image-square">
+                        <img src="img/home-instagram1.jpg" alt="">
+                    </div>
+                    <div class="image-square">
+                        <img src="img/home-instagram2.jpg" alt="">
+                    </div>
+                    <div class="image-square">
+                        <img src="img/home-instagram3.jpg" alt="">
+                    </div>
+                    <div class="image-square">
+                        <img src="img/home-instagram4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footer -->
+    <footer class="footer">
+        <div class="container">
+                <div class="footer__container-logo">
+                    <a href="index.html" class="link--logo">
+                        <img class="footer__logo" src="img/logo-white.png" alt="imagen del logo">
+                    </a>
+                </div>
+                <div class="footer__container-social">
+                    <a href="https://www.instagram.com/tocamoverse/" target="_blank" class="link--social">
+                        <img class="footer__icon" src="img/icons/instagram.png" alt="logo de instagram" width="20" height="20">
+                    </a>
+                    <a href="https://www.linkedin.com/in/lauquicios/" target="_blank" class="link--social">
+                        <img class="footer__icon" src="img/icons/linkedin.png" alt="logo de linkedin" width="20" height="20">
+                    </a>
+                </div>
+                <div class="footer__container-legaltext">
+                    <nav class="footer__nav">
+                        <ul class="footer__nav__ul">
+                            <li><a class="link footer__nav__link" href="politica-privacidad.html" target="_blank">Política de privacidad - </a></li>
+                            <li><a class="link footer__nav__link" href="cookies.html" target="_blank">Cookies - </a></li>
+                            <li><a class="link footer__nav__link" href="aviso-legal.html" target="_blank">Aviso legal</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__container-firma">
+                <p class="footer__text align--center color--darkblue">© <time datetime="2023-02-18">2023 -</time>Todos los derechos resevados</p>
+                <p class="footer__text align--center color--darkblue">Diseño web: <a href="https://www.maytevalls.com/" target="_blank">Mayte Valls</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin del footer -->
+    </body>
+</html>
